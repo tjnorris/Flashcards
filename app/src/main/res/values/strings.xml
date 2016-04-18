@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Flashcards</string>
+    <string name="existing_packs">Existing Packs</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_flash_card_pack">FlashCardPackActivity</string>
+    <string name="find_more_packs">Search For More</string>
+    <string name="title_activity_get_remote_packs">Find More FlashCard Packs</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="click_to_flip">Flip for Answer</string>
+    <string name="correct_answers">Questions Answered Correctly</string>
+    <string name="incorrect_answers">Questions Answered Incorrectly</string>
+    <string name="skipped_answers">Skipped Questions</string>
+
+    <integer name="card_flip_time_full">2</integer>
+    <integer name="card_flip_time_half">1</integer>
+    <string name="title_activity_card">CardActivity</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_activity_test_results">TestResultsActivity</string>
+    <string name="dummy_button">Done</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="error_accessing_remote_packs">Unable to access available packs at the moment.</string>
+    <string name="practice_description">If you want to learn, click \'Practice\' to flip through the cards.</string>
+    <string name="test_description">Think you are ready?  Click to test your skills.</string>
+
+    <!--<string name="api_url">http://stark-crag-9333.herokuapp.com</string>-->
+    <!--<string name="api_user_string">flashcardadmin:daSfhie234@!#</string>-->
+    <string name="api_url">http://10.0.2.2:8000/api</string>
+    <string name="api_user_string">admin:P@ssw0rd1</string>
+
+    <!-- DATABASE VERSION, INCREASE THIS NUMBER TO CAUSE AN UPDATE -->
+    <integer name="database_version">1</integer>
+</resources>

@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/default_background"
+                tools:context="com.teejaynorris.aflashcardapp.GetRemotePacksActivity">
+
+    <include layout="@layout/standard_toolbar" android:id="@+id/standardToolbar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loadingText"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/packList"
+        android:visibility="invisible"
+        android:background="@android:color/darker_gray"
+        >
+    </ListView>
+
+    <ViewStub
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/noConnectionViewStub"/>
+
+</LinearLayout>

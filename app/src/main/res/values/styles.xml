@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <!--<item name="android:background">@color/default_background</item>-->
+    </style>
+
+
+    <style name="DefaultButtonStyle" parent="android:Widget.Button">
+        <item name="android:background">@color/secondary_v1</item>
+        <item name="android:textColor">@color/label_text_v2</item>
+        <item name="android:textSize">19sp</item>
+    </style>
+
+    <style name="FlashCardStyle" parent="AppTheme">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textColor">@color/label_text_v2</item>
+    </style>
+
+
+</resources>

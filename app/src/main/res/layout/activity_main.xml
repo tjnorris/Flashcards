@@ -1,0 +1,77 @@
+<LinearLayout android:id="@+id/dummy"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:weightSum="100"
+              android:background="@color/default_background">
+
+    <include layout="@layout/standard_toolbar" android:id="@+id/standardToolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="95"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/existing_packs"
+            android:textColor="@android:color/darker_gray"/>
+
+        <View
+            android:id="@+id/separator"
+            android:layout_width="fill_parent"
+            android:layout_height="1.4dp"
+            android:background="@color/secondary_v1"
+            android:visibility="visible"/>
+
+        <ListView
+            android:id="@+id/the_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:background="@color/default_background">
+        </ListView>
+    </LinearLayout>
+    <!-- Separate Download new from Existing List-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:minHeight="100dp"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:background="@color/secondary_v1"/>
+
+        <android.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <Button
+            android:id="@+id/findPacks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:onClick="goToRemoteActivity"
+            android:text="@string/find_more_packs"
+            android:background="@color/secondary_v1"
+            android:textColor="@color/label_text_v2"
+            android:padding="@dimen/abc_button_padding_horizontal_material"/>
+    </LinearLayout>
+
+</LinearLayout>

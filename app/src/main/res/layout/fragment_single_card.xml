@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical"
+             android:background="@android:color/white"
+             tools:context="com.teejaynorris.aflashcardapp.SingleCardFragment">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:gravity="center_horizontal|center_vertical"
+            android:id="@+id/card_text"
+            android:textSize="@dimen/abc_text_size_display_2_material"
+            style="@style/FlashCardStyle"
+            android:text="not changed"/>
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="match_parent"/>
+
+</LinearLayout>
