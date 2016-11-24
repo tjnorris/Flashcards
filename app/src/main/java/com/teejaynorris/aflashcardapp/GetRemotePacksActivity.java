@@ -1,13 +1,9 @@
 package com.teejaynorris.aflashcardapp;
 
-import android.app.Activity;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Base64;
 import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewStub;
 import android.widget.AdapterView;
@@ -20,10 +16,8 @@ import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
-import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
-import com.teejaynorris.aflashcardapp.database.FlashCardDbHelper;
-import com.teejaynorris.aflashcardapp.listener.StandardJsonErrorListener;
+import com.teejaynorris.aflashcardapp.database.FlashcardDatabase;
 import com.teejaynorris.aflashcardapp.model.DefaultFlashCardImpl;
 import com.teejaynorris.aflashcardapp.model.FlashCard;
 import com.teejaynorris.aflashcardapp.model.FlashCardDeck;
@@ -150,9 +144,10 @@ public class GetRemotePacksActivity extends ToolbarAppCompatActivity {
 
         boolean isInstalled = _isPackAlreadyInstalled(deck);
 
-        String url =  String.format(getString(R.string.api_url) + "/packs/%d/cards", deck.getApiId());
+        String api_url = (getString(R.string.api_url));
+        String url =  String.format(api_url + "/packs/%d/cards", deck.getApiId());
 
-        final FlashCardDbHelper dbHelper = new FlashCardDbHelper(getApplicationContext());
+        final FlashcardDatabase dbHelper = new FlashcardDatabase(getApplicationContext());
 
         JsonArrayRequest jsonArrayRequest = new JsonArrayRequest(Request.Method.GET, url, null, new Response.Listener<JSONArray>() {
 
@@ -215,7 +210,7 @@ public class GetRemotePacksActivity extends ToolbarAppCompatActivity {
     private boolean _isPackAlreadyInstalled(FlashCardDeck pack) {
         boolean ans = false;
 
-        final FlashCardDbHelper dbHelper = new FlashCardDbHelper(getApplicationContext());
+        final FlashcardDatabase dbHelper = new FlashcardDatabase(getApplicationContext());
 
         FlashCardDeck retrievedPack = dbHelper.getPackByApiId(pack.getApiId());
 

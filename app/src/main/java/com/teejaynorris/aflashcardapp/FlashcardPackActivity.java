@@ -52,8 +52,6 @@ public class FlashcardPackActivity extends ToolbarAppCompatActivity implements S
     protected void onNewIntent(Intent intent) {
         super.onNewIntent(intent);
 
-        Log.d(_TAG, "RESTARTING THIS MOTHA");
-
         recreate();
 
     }
@@ -74,7 +72,6 @@ public class FlashcardPackActivity extends ToolbarAppCompatActivity implements S
     }
 
     public void nextCard() {
-        Log.d(_TAG, "Next Card bitches!!");
 
         // Go to next card unless this is last card, then go to stats page
         if (_flashCardsIter.hasNext()) {
@@ -204,14 +201,14 @@ public class FlashcardPackActivity extends ToolbarAppCompatActivity implements S
 
     @Override
     public void onUserAnswerInteraction(String answer) {
-        Toast result = null;
+        Toast result;
         if (_currentCard.getAnswer().equalsIgnoreCase(answer)) {
             result = Toast.makeText(getApplicationContext(), "Correct!!", Toast.LENGTH_SHORT);
             _testStats.answeredCorrectly();
 
         }
         else {
-            result = Toast.makeText(getApplicationContext(), "Womp Womp", Toast.LENGTH_SHORT);
+            result = Toast.makeText(getApplicationContext(), "Incorrect", Toast.LENGTH_SHORT);
             _testStats.answeredIncorrectly();
         }
         result.show();
@@ -238,7 +235,7 @@ public class FlashcardPackActivity extends ToolbarAppCompatActivity implements S
 
     public enum Mode {
         PRACTICE,
-        TEST;
+        TEST
     }
 
     private void start() {

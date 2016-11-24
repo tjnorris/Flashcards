@@ -1,10 +1,7 @@
 package com.teejaynorris.aflashcardapp;
 
-import android.app.Activity;
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.MenuItem;
@@ -15,11 +12,11 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 
 import com.teejaynorris.aflashcardapp.database.FlashcardDatabase;
 import com.teejaynorris.aflashcardapp.model.FlashCardDeck;
-import com.teejaynorris.aflashcardapp.database.FlashCardDbHelper;
 
 import java.util.List;
 
@@ -96,7 +93,8 @@ public class MainActivity extends ToolbarAppCompatActivity {
     }
 
     public void goToRemoteActivity(View view) {
-        Intent intent = new Intent(MainActivity.this, GetRemotePacksActivity.class);
-        MainActivity.this.startActivity(intent);
+        Toast.makeText(MainActivity.this, "Not yet implemented", Toast.LENGTH_SHORT).show();
+//        Intent intent = new Intent(MainActivity.this, GetRemotePacksActivity.class);
+//        MainActivity.this.startActivity(intent);
     }
 }

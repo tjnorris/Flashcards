@@ -1,2 +1,208 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/tjnorris/Development/FlashCards/AndroidApp/Flashcards/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="/Users/tjnorris/Development/FlashCards/AndroidApp/Flashcards/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.0_c3afb6ccdfa15f9f6f7e0415246b405cea029ed2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tjnorris/Development/FlashCards/AndroidApp/Flashcards/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="/Users/tjnorris/Development/FlashCards/AndroidApp/Flashcards/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.0_e0131541bc196ece99ab06770167a43fd47b4319/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tjnorris/Development/FlashCards/AndroidApp/Flashcards/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="/Users/tjnorris/Development/FlashCards/AndroidApp/Flashcards/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.0_0d173277593656e8293859177c29028a0d41d31d/classes.dex" />
+    </item>
+    <item
+        jar="/Users/tjnorris/Development/FlashCards/AndroidApp/Flashcards/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0 rc2"
+        sha1="e15e2e95252654a78b29aaf8577a7faaf8d1a60e">
+        <dex dex="/Users/tjnorris/Development/FlashCards/AndroidApp/Flashcards/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_880b3fb7531404e0cae066ae006de3b2639b9911/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tjnorris/Development/FlashCards/AndroidApp/Flashcards/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="/Users/tjnorris/Development/FlashCards/AndroidApp/Flashcards/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_07b96f51aec45970c03ef646b1ccfe842f8ec195/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tjnorris/.gradle/caches/modules-2/files-2.1/com.readystatesoftware.sqliteasset/sqliteassethelper/2.0.1/d5f02e4a4d65ec0fbb339f2e4228723d1540bb9f/sqliteassethelper-2.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d5f02e4a4d65ec0fbb339f2e4228723d1540bb9f">
+        <dex dex="/Users/tjnorris/Development/FlashCards/AndroidApp/Flashcards/app/build/intermediates/transforms/dex/debug/folders/1000/10/sqliteassethelper-2.0.1_dceeaf8ea91e8193cd8c6da7c0eff89e150fee39/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tjnorris/Development/FlashCards/AndroidApp/Flashcards/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="/Users/tjnorris/Development/FlashCards/AndroidApp/Flashcards/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_a120afd2121ef58f37ea39473b68b48fb1474596/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tjnorris/Development/FlashCards/AndroidApp/Flashcards/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="/Users/tjnorris/Development/FlashCards/AndroidApp/Flashcards/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.0_ab3f412930df0343427f0177ad25a35cfb16f9fe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tjnorris/Development/FlashCards/AndroidApp/Flashcards/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2dccfbe53d08e5943df3d8cdaf7bf2d43d385aba">
+        <dex dex="/Users/tjnorris/Development/FlashCards/AndroidApp/Flashcards/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c1a3fc3fc8e2b3bc53600746331f1b4207f9f260/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tjnorris/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.0/support-annotations-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="/Users/tjnorris/Development/FlashCards/AndroidApp/Flashcards/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.0_edf6a7fee1b3046d2b1a11074982803df39f2db5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tjnorris/Development/FlashCards/AndroidApp/Flashcards/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="/Users/tjnorris/Development/FlashCards/AndroidApp/Flashcards/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.0_4574b08cf127f059629f0de7c5533dee2e901d75/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tjnorris/Development/FlashCards/AndroidApp/Flashcards/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="/Users/tjnorris/Development/FlashCards/AndroidApp/Flashcards/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.0_c6b6eb0520c79b61f9c49d54dc5dc329a534718c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tjnorris/Development/FlashCards/AndroidApp/Flashcards/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="/Users/tjnorris/Development/FlashCards/AndroidApp/Flashcards/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_adf86565d61de975a0f9441ff1c3ded4fbfd3b94/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tjnorris/Development/FlashCards/AndroidApp/Flashcards/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="/Users/tjnorris/Development/FlashCards/AndroidApp/Flashcards/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.0_fcd50126bcc9d73b0fdd43244bde0bf9235f5479/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tjnorris/Development/FlashCards/AndroidApp/Flashcards/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="/Users/tjnorris/Development/FlashCards/AndroidApp/Flashcards/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.0_275b97c3f9ee2b70a09413961d32498f35b9f5da/classes.dex" />
+    </item>
+    <item
+        jar="/Users/tjnorris/Development/FlashCards/AndroidApp/Flashcards/app/build/intermediates/exploded-aar/com.android.volley/volley/1.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0 rc2"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="/Users/tjnorris/Development/FlashCards/AndroidApp/Flashcards/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.volley-volley-1.0.0_02fdc31582435859034a752cd331dba8970c65f8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tjnorris/Development/FlashCards/AndroidApp/Flashcards/app/build/intermediates/exploded-aar/com.android.volley/volley/1.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="/Users/tjnorris/Development/FlashCards/AndroidApp/Flashcards/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.volley-volley-1.0.0_02fdc31582435859034a752cd331dba8970c65f8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tjnorris/Development/FlashCards/AndroidApp/Flashcards/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="/Users/tjnorris/Development/FlashCards/AndroidApp/Flashcards/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_d84ef126346f6e5bf9f4e65d1979a5c1227c8b46/classes.dex" />
+    </item>
+    <item
+        jar="/Users/tjnorris/.gradle/caches/modules-2/files-2.1/com.readystatesoftware.sqliteasset/sqliteassethelper/2.0.1/d5f02e4a4d65ec0fbb339f2e4228723d1540bb9f/sqliteassethelper-2.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0 rc2"
+        sha1="d5f02e4a4d65ec0fbb339f2e4228723d1540bb9f">
+        <dex dex="/Users/tjnorris/Development/FlashCards/AndroidApp/Flashcards/app/build/intermediates/transforms/dex/debug/folders/1000/10/sqliteassethelper-2.0.1_dceeaf8ea91e8193cd8c6da7c0eff89e150fee39/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tjnorris/Development/FlashCards/AndroidApp/Flashcards/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c6b4e3adb70c2fa6cbe57eaa5f83f9392b5d6986">
+        <dex dex="/Users/tjnorris/Development/FlashCards/AndroidApp/Flashcards/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_880b3fb7531404e0cae066ae006de3b2639b9911/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tjnorris/Development/FlashCards/AndroidApp/Flashcards/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="/Users/tjnorris/Development/FlashCards/AndroidApp/Flashcards/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.0_0dcf9d1344a05a0f0003efce82e388c769424d14/classes.dex" />
+    </item>
+    <item
+        jar="/Users/tjnorris/Development/FlashCards/AndroidApp/Flashcards/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0 rc2"
+        sha1="1df1cdc56b95b340be09e9abadd502adaad3d540">
+        <dex dex="/Users/tjnorris/Development/FlashCards/AndroidApp/Flashcards/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c1a3fc3fc8e2b3bc53600746331f1b4207f9f260/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tjnorris/Development/FlashCards/AndroidApp/Flashcards/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="/Users/tjnorris/Development/FlashCards/AndroidApp/Flashcards/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_9c23fc59a7f6875fb18164cda83173573b3b41e9/classes.dex" />
+    </item>
+
+</items>

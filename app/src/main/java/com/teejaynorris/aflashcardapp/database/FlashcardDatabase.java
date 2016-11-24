@@ -51,6 +51,8 @@ public class FlashcardDatabase extends SQLiteAssetHelper {
             cursor.moveToNext();
         }
 
+        cursor.close();
+
         return packs;
     }
 
@@ -136,28 +138,13 @@ public class FlashcardDatabase extends SQLiteAssetHelper {
         pack.setApiId(cursor.getLong(1));
         pack.setName(cursor.getString(2));
 
+        cursor.close();
+
         return pack;
     }
 
     // PRIVATE METHODS!!!
 
-    private List<ContentValues> _getContentValuesForCards(final long packId) {
-        String[] questions = new String[] {"time (specific occurrence)", "year", "time (general)", "day", "thing", "man", "part", "life", "moment", "form", "house", "world", "woman", "case", "country", "place", "person", "hour", "work", "point", "hand", "way", "end", "type", "people", "example", "side", "son", "problem", "bill", "means", "word", "child", "embargo", "father", "change", "history", "idea", "water", "night", "city", "way", "name", "family", "reality", "work", "truth", "month", "reason", "group"};
-        String[] answers = new String[] {"vez", "año", "tiempo", "día", "cosa", "hombre", "parte", "vida", "momento", "forma", "casa", "mundo", "mujer", "caso", "país", "lugar", "persona", "hora", "trabajo", "punto", "mano", "manera", "fin", "tipo", "gente", "ejemplo", "lado", "hijo", "problema", "cuenta", "medio", "palabra", "niño", "sin", "padre", "cambio", "historia", "idea", "agua", "noche", "ciudad", "modo", "nombre", "familia", "realidad", "obra", "verdad", "mes", "razón", "grupo"};
-
-        List<ContentValues> cards = new ArrayList<>();
-
-        for (int i=0; i<questions.length; i++) {
-            ContentValues card = new ContentValues();
-            card.put(FlashCardContract.FlashCardEntry.COLUMN_NAME_FLASH_CARD_PACK_ID, packId);
-            card.put(FlashCardContract.FlashCardEntry.COLUMN_NAME_FLASH_CARD_QUESTION, questions[i]);
-            card.put(FlashCardContract.FlashCardEntry.COLUMN_NAME_FLASH_CARD_ANSWER_TEXT, answers[i]);
-
-            cards.add(card);
-        }
-
-        return cards;
-    }
 
     private List<ContentValues> _getContentValuesForCards(final long packId, final Set<FlashCard> cards) {
 
